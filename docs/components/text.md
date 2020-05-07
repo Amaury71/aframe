@@ -139,7 +139,7 @@ Different fonts can be specified using the `font` and `fontImage` properties.
 ```html
 <a-entity text="font: mozillavr; value: Via stock font name."></a-entity>
 <a-entity text="font: https://cdn.aframe.io/fonts/mozillavr.fnt; value: Via URL."></a-entity>
-<a-entity text="text: Hello World; font: ../fonts/DejaVu-sdf.fnt; fontImage: ../fonts/DejaVu-sdf.png"></a-entity>
+<a-entity text="value: Hello World; font: ../fonts/DejaVu-sdf.fnt; fontImage: ../fonts/DejaVu-sdf.png"></a-entity>
 ```
 
 If not specified, `fontImage` will be the `font`'s name, but with the extension
